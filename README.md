@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 Once the project is set up, you can navigate through the courses using the provided navigation links. Use the multimedia player to watch or listen to course content, and utilize the language selection feature to switch between languages. Your progress through the courses will be tracked visually to help you keep track of your learning journey.
 
 ## Demo
-Visit live project deployed at github pages here: 
+Visit live project deployed at github pages here: https://gauranshgoel123.github.io/Courses-Platfrom-Website/
 
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, please follow these guidelines:
