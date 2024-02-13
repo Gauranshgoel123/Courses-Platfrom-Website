@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Learning Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">COURSE NAME</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Language
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Spanish</a>
+              <a class="dropdown-item" href="#">French</a>
+              <a class="dropdown-item" href="#">Hindi</a>
+            </div>
+          </li>
+          <!-- End Dropdown -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="section1-tab" data-toggle="list" href="#section1" role="tab" aria-controls="section1">Section 1</a>
+          <a class="list-group-item list-group-item-action" id="section2-tab" data-toggle="list" href="#section2" role="tab" aria-controls="section2">Section 2</a>
+          <a class="list-group-item list-group-item-action" id="section3-tab" data-toggle="list" href="#section3" role="tab" aria-controls="section3">Section 3</a>
+          <a class="list-group-item list-group-item-action" id="section4-tab" data-toggle="list" href="#section4" role="tab" aria-controls="section4">Section 4</a>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="section1" role="tabpanel" aria-labelledby="section1-tab">
+            <h2>Section 1</h2>
+            <p>This is the content of section 1.</p>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <p>VIDEO 1</p>
+                <video controls class="w-100">
+                  <source src="video1.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                
+              </div>
+              <div class="col-md-6 mb-3">
+                <p>VIDEO 2</p>
+                <video controls class="w-100">
+                  <source src="video2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="col-md-6 mb-3">
+                <p>VIDEO 3</p>
+                <video controls class="w-100">
+                  <source src="video3.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="col-md-6 mb-3">
+                <p>VIDEO 4</p>
+                <video controls class="w-100">
+                  <source src="video4.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="col-md-6 mb-3">
+                <p>VIDEO 5</p>
+                <video controls class="w-100">
+                  <source src="video4.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="col-md-6 mb-3">
+                <p>VIDEO 6</p>
+                <video controls class="w-100">
+                  <source src="video4.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="section2" role="tabpanel" aria-labelledby="section2-tab">
+            <h2>Section 2</h2>
+            <p>This is the content of section 2.</p>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                  <p>VIDEO 1</p>
+                  <video controls class="w-100">
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  
+                </div>
+                <div class="col-md-6 mb-3">
+                  <p>VIDEO 2</p>
+                  <video controls class="w-100">
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="section3" role="tabpanel" aria-labelledby="section3-tab">
+            <h2>Section 3</h2>
+            <p>This is the content of section 3.</p>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                  <p>VIDEO 1</p>
+                  <video controls class="w-100">
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  
+                </div>
+                <div class="col-md-6 mb-3">
+                  <p>VIDEO 2</p>
+                  <video controls class="w-100">
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="section4" role="tabpanel" aria-labelledby="section4-tab">
+            <h2>Section 4</h2>
+            <p>This is the content of section 4.</p>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                  <p>VIDEO 1</p>
+                  <video controls class="w-100">
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                  
+                </div>
+                <div class="col-md-6 mb-3">
+                  <p>VIDEO 2</p>
+                  <video controls class="w-100">
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+
+    <div class="progress mt-4">
+      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+    </div>
+  
+  </main>
+
+  <!-- Bootstrap JS (including Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  
+
+</body>
+</html>
